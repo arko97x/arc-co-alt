@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Footer from "../components/footer"
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='w-screen min-h-screen'></main>
+      <main className="min-w-screen min-h-screen">
+        <Footer />
+      </main>
     </>
   )
 }
